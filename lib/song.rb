@@ -53,6 +53,12 @@ class Song
     song.name = file.split(" - ")[1].chomp(".mp3")
     song.artist_name = file.split(" - ")[0]
     song
+    
+    # artist, song = file.split(" - ")
+    # song_name = song.gsub(".mp3", "")
+    # new_song = self.new
+    # new_song.name = song_name
+    # new_song
   end
   
   def self.destroy_all
